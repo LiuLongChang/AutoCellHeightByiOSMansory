@@ -11,11 +11,16 @@
 		9457DE201C155C9F00A94317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9457DE1F1C155C9F00A94317 /* AppDelegate.m */; };
 		9457DE231C155C9F00A94317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9457DE221C155C9F00A94317 /* ViewController.m */; };
 		9457DE261C155C9F00A94317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9457DE241C155C9F00A94317 /* Main.storyboard */; };
-		9457DE281C155C9F00A94317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9457DE271C155C9F00A94317 /* Assets.xcassets */; };
 		9457DE2B1C155C9F00A94317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9457DE291C155C9F00A94317 /* LaunchScreen.storyboard */; };
+		9457DE341C1561A800A94317 /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9457DE331C1561A800A94317 /* HomeViewCell.m */; };
+		9457DE371C15628F00A94317 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9457DE361C15628F00A94317 /* HomeModel.m */; };
+		9457DE3F1C15766300A94317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9457DE3E1C15766300A94317 /* Images.xcassets */; };
+		D96D7C98827BD74B28E00ABA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69251D15CBF18C0D51AF99BD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69251D15CBF18C0D51AF99BD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6A4167B1D98964210D1DC7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9457DE181C155C9F00A94317 /* AutoCellHeightByiOSMansory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCellHeightByiOSMansory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9457DE1C1C155C9F00A94317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9457DE1E1C155C9F00A94317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -23,9 +28,14 @@
 		9457DE211C155C9F00A94317 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9457DE221C155C9F00A94317 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9457DE251C155C9F00A94317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9457DE271C155C9F00A94317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9457DE2A1C155C9F00A94317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9457DE2C1C155C9F00A94317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9457DE321C1561A800A94317 /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
+		9457DE331C1561A800A94317 /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
+		9457DE351C15628F00A94317 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		9457DE361C15628F00A94317 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		9457DE3E1C15766300A94317 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B94CE28C75A9BCA99DA115F1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96D7C98827BD74B28E00ABA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2177769F3560BBDE9F61FD25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B94CE28C75A9BCA99DA115F1 /* Pods.debug.xcconfig */,
+				7F6A4167B1D98964210D1DC7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9457DE0F1C155C9F00A94317 = {
 			isa = PBXGroup;
 			children = (
 				9457DE1A1C155C9F00A94317 /* AutoCellHeightByiOSMansory */,
 				9457DE191C155C9F00A94317 /* Products */,
+				2177769F3560BBDE9F61FD25 /* Pods */,
+				D535A62168DA9CB10C0A7B14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,10 +84,14 @@
 				9457DE1F1C155C9F00A94317 /* AppDelegate.m */,
 				9457DE211C155C9F00A94317 /* ViewController.h */,
 				9457DE221C155C9F00A94317 /* ViewController.m */,
+				9457DE321C1561A800A94317 /* HomeViewCell.h */,
+				9457DE331C1561A800A94317 /* HomeViewCell.m */,
+				9457DE351C15628F00A94317 /* HomeModel.h */,
+				9457DE361C15628F00A94317 /* HomeModel.m */,
 				9457DE241C155C9F00A94317 /* Main.storyboard */,
-				9457DE271C155C9F00A94317 /* Assets.xcassets */,
 				9457DE291C155C9F00A94317 /* LaunchScreen.storyboard */,
 				9457DE2C1C155C9F00A94317 /* Info.plist */,
+				9457DE3E1C15766300A94317 /* Images.xcassets */,
 				9457DE1B1C155C9F00A94317 /* Supporting Files */,
 			);
 			path = AutoCellHeightByiOSMansory;
@@ -79,6 +105,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D535A62168DA9CB10C0A7B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69251D15CBF18C0D51AF99BD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9457DE2F1C155C9F00A94317 /* Build configuration list for PBXNativeTarget "AutoCellHeightByiOSMansory" */;
 			buildPhases = (
+				F141160B5AC5B694A904A62B /* Check Pods Manifest.lock */,
 				9457DE141C155C9F00A94317 /* Sources */,
 				9457DE151C155C9F00A94317 /* Frameworks */,
 				9457DE161C155C9F00A94317 /* Resources */,
+				B9043FE76FA53FCD1AA1A287 /* Embed Pods Frameworks */,
+				9777C47A83CF601C5066F247 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,20 +173,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9457DE3F1C15766300A94317 /* Images.xcassets in Resources */,
 				9457DE2B1C155C9F00A94317 /* LaunchScreen.storyboard in Resources */,
-				9457DE281C155C9F00A94317 /* Assets.xcassets in Resources */,
 				9457DE261C155C9F00A94317 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9777C47A83CF601C5066F247 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9043FE76FA53FCD1AA1A287 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F141160B5AC5B694A904A62B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9457DE141C155C9F00A94317 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9457DE371C15628F00A94317 /* HomeModel.m in Sources */,
 				9457DE231C155C9F00A94317 /* ViewController.m in Sources */,
+				9457DE341C1561A800A94317 /* HomeViewCell.m in Sources */,
 				9457DE201C155C9F00A94317 /* AppDelegate.m in Sources */,
 				9457DE1D1C155C9F00A94317 /* main.m in Sources */,
 			);
@@ -261,6 +348,7 @@
 		};
 		9457DE301C155C9F00A94317 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94CE28C75A9BCA99DA115F1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoCellHeightByiOSMansory/Info.plist;
@@ -272,6 +360,7 @@
 		};
 		9457DE311C155C9F00A94317 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6A4167B1D98964210D1DC7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoCellHeightByiOSMansory/Info.plist;
@@ -300,6 +389,7 @@
 				9457DE311C155C9F00A94317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
